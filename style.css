@@ -545,6 +545,27 @@ footer {
   font-weight: 500;
 }
 
+.qr-pair {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+}
+
+.qr-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.qr-label {
+  margin: 0 0 0.5rem;
+  font-size: 0.9rem;
+  color: var(--ink);
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
 #qrCanvas {
   border-radius: 8px;
 }
@@ -552,7 +573,6 @@ footer {
 .qr-img {
   border-radius: 8px;
   display: block;
-  margin: 0 auto;
 }
 
 .qr-url {
